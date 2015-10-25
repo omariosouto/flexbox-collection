@@ -1,0 +1,19 @@
+.pageHome {
+     .flexbox-block{
+        background-color: #eee;
+        @include flexbox();
+        @include flex-wrap(wrap);
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+	    .flexbox-item{
+	        padding-left: 10px;
+	        padding-right: 10px;
+			.box{
+			    background-color: #ddd;
+			    text-align: center;
+			    margin-bottom: 20px;
+			}
+	    }
+    }
+}

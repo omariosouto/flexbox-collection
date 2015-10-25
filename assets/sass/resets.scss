@@ -1,0 +1,9 @@
+.main {
+    @include flexbox();
+	@include flex-direction(column);
+	min-height: 100vh;
+	//The last 'div' before the footer must have this class, so footer will be a true ever sticky
+	.main-content {
+		@include flex();
+	}
+}

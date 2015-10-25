@@ -1,0 +1,7 @@
+.footer {
+	background: #eee;
+	min-height: 60px;
+	@include flexbox();
+	@include justify-content(center);
+	@include align-items(center);
+}
